@@ -1,0 +1,6 @@
+video{
+    width : 90%;
+    margin: 30px 20px;
+    object-fit: cover; /* This makes the poster/image fill the container */
+    box-shadow: 1px 1px 5px gray;
+}

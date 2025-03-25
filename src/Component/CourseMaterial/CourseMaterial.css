@@ -1,0 +1,55 @@
+.course-material{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.material-item{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: repeat(4 , 1fr);
+    background-color: white;
+    box-shadow: 1px 1px 10px gray;
+    margin: 10px 0 0 20px;
+    padding : 6px;
+    width : 90%;
+    text-align: center;
+    color : rgba(0, 0, 0, 0.747);
+    font-size: 16px;
+    gap : 5px 50px;
+}
+.material-item .item{
+    width : 80%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.295);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item:nth-child(7) , .item:last-child{
+    border-bottom: none;
+}
+
+.detail-fix-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-evenly;
+    width : 200px;
+    margin: 10px 0 0 20px;
+}
+.icon{
+   background-color: white;
+   padding :10px;
+   border-radius: 20px;
+   border: 1px solid rgba(128, 128, 128, 0.295);
+   transition: all ease-in 0.2s;
+}
+
+.icon:hover {
+    background-color:grey;
+    color : white
+
+}

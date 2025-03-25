@@ -1,0 +1,47 @@
+.progress{
+    width : 100%;
+    margin: auto;
+    height: 10px;
+    border-radius: 5px;
+    background-color:rgba(128, 128, 128, 0.582);
+    display: flex;
+    margin: 20px auto;
+}
+
+.your-progress{
+    width: 63%;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.397);
+    position: relative;
+}
+.your-progress::after{
+    content: "63%";
+    position: absolute;
+    right: -10px;
+    bottom: -20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.you{
+    position: absolute;
+    right: -20px;
+    top: -60px;
+    background-color: white;
+    color :black;
+    border: 2px solid gray;
+    text-align: center;
+    padding : 12px 10px;
+    border-radius: 200px;
+}
+
+.you::after{
+    content: "v";
+    font-size: 13px;
+    position: absolute;
+    bottom: -13px;
+    left : 40%;
+    font-weight: bold;
+    color: gray;
+}
+
